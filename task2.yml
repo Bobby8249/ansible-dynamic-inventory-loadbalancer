@@ -1,0 +1,5 @@
+- hosts: localhost
+  vars_files:
+    - /root/ansible_roles/ec2/vars/secure.yml
+  roles:
+    - role: ec2
