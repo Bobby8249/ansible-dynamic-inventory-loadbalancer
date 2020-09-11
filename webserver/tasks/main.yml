@@ -15,9 +15,8 @@
           state: started
           enabled: yes
 - name: copy github code
-  git:
-          repo: "{{ git_repo }}"
-          clone: yes
+  copy:
+          content: "hello from {{ ansible_hostname }}"
           dest: "{{ website }}"
 
 

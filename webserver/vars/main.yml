@@ -2,4 +2,4 @@
 # vars file for webserver
 package_name: "httpd"
 git_repo: "https://github.com/Bobby8249/demo-webpage.git"
-website: "/var/www/html"
+website: "/var/www/html/index.html"
