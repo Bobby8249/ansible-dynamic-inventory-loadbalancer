@@ -1,3 +1,8 @@
-- hosts: all
+- hosts: tag_Name_webserver
   roles:
-        - role: webserver
+          - role: webserver
+          
+- hosts: tag_Name_loadbalancer
+  roles:
+          - role: loadbalancer
+
